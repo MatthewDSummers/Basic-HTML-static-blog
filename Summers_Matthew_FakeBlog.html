@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Michael Jordan's (fake) Blog</title>
+        <meta charset="utf-8">
+        <meta name="description" content="A fake blog about Michael Jordan">
+        <meta name="keywords" content="Michael Jordan, Blog, Fake Blog, HTML">
+        <meta name="author" content="Matthew S">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Michael Jordan</h1>
+
+            <img src="mike.jpg" alt="Portrait of Michael Jordan" width=300>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates repudiandae autem dolore numquam hic dolorum, 
+                illo obcaecati! Modi, ex cum a voluptatem vero inventore 
+                nulla quia sit distinctio dignissimos molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates repudiandae autem dolore numquam hic dolorum, 
+                illo obcaecati! Modi, ex cum a voluptatem vero inventore 
+                nulla quia sit distinctio dignissimos molestiae?</p>
+        </div>
+
+        <div>
+            <table style='border: 2px solid black;'>
+                <tr>
+                    <th>Year</th>
+                    <th>PPG</th>
+                    <th>MVP</th>
+                </tr>
+                <tr>
+                    <td>1990-91</td>
+                    <td>31.5</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>1991-92</td>
+                    <td>30.1</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>1992-93</td>
+                    <td>32.6</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>1995-96</td>
+                    <td>30.4</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>1996-97</td>
+                    <td>29.6</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>1997-98</td>
+                    <td>28.7</td>
+                    <td>Yes</td>
+                </tr>
+            </table>
+            <ul>
+                <li>1984 - 1993  Chicago Bulls</li>
+                <li>1995 - 1998  Chicago Bulls</li>
+                <li>2001 - 2003  Washington Wizards</li>
+            </ul>
+        </div>
+
+        <a href="https://www.youtube.com/watch?v=2ULzeWIlamA" target="_blank">Check For Awesome Highlight Video!</a>
+        <br> <br>
+        <div>
+            <h2>Please take this short survey</h2>
+
+            <form action="process.php" method="post">
+                <label for="email">Email:</label>
+                <input style="border: 2px solid black;" type="text" id="email" name="email" size="35">
+                <br><br>
+
+                <label for="accept">Yes, please send me lots of emails</label>
+                <label><input type="radio" id="accept" name="subscription" value="accept" style="margin-right:40px">
+                
+                <label for="decline">No, please do not send me any emails</label>
+                <input type="radio" id="decline" name="subscription" value="decline">
+                <br><br><br>
+                <img src="space_jam.jpg" alt="Picture of the film 'Space Jam' starring Michael Jordan" width=550>
+
+                <p>Select your T-shirt size</p>
+
+                <select id="favorite_language" name="favorite_language">
+                    <option value="Small">S</option>
+                    <option value="Medium">M</option>
+                    <option value="Large">L</option>
+                    <option value="Extra-Large">XL</option>
+                </select>
+                <br>
+
+                <h3>How did you hear about us?</h3>
+
+                <label for="facebook">Facebook</label>
+                <input type="checkbox" id="facebook" name="how" value="facebook">
+                <br>
+                <label for="green">Newspaper</label>
+                <input type="checkbox" id="newspaper" name="how" value="newspaper">
+                <br>
+                <label for="red">Referral</label>
+                <input type="checkbox" id="red" name="color" value="red">
+                <br>
+                <label for="black">Space Jam</label>
+                <input type="checkbox" id="space_jam" name="how" value="space_jam">
+                <br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
